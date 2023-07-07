@@ -1,36 +1,110 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-.top {
-    padding-bottom: 59px;
+body {
+    background: #FFFFFF;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
-.header__menu {
+
+header {
     margin-top: 73px;
-    margin-bottom: 94.71;
+    margin-bottom: 94px;
 }
 
-.header {
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 67px;
-    padding-bottom: 89px;
+    padding-left: calc(50% - 513px);
+    padding-right: calc(50% - 513px);
+}
+
+.navigation {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link {
+    color: #000000;
+    font-size: 14px;
+}
+
+.header__link1 {
+    color: #F25822;
+    font-size: 14px;
+}
+
+main {
+    margin-bottom: 162px;
+    margin-top: 89px;
 }
 
 .top__content {
-    margin-top: 184.71px;
-    margin-bottom: 149.45px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: calc(50% - 513px);
+    padding-right: calc(50% - 513px);
 }
 
 .title__image {
     margin-top: 89px;
-    margin-bottom: 17px;
+}
+
+.top__image {
+    margin-left: 41px;
 }
 
 .top__description {
+    font-family: 'Gilroy-Medium', sans-serif;
+    margin-top: 17px;
     margin-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    width: 466px;
 }
 
 .top__buttons {
     margin-top: 52px;
 }
+
+
+.button1 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-bottom: 149px; 
+    }
+
+.button2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #AAA;
+    font-size: 15px;
+    border: 0;
+    background: none;
+    margin-left: 72px;
+    margin-bottom: 165px; 
+}   
+
+.top__logos {
+    display: flex;
+    width: 1026px;
+    justify-content: space-between;
+    padding-top: 134px;
+    padding-bottom: 59px;
+    padding-left: calc(50% - 513px);
+    padding-right: calc(50% - 513px);
+}
+
